@@ -45,9 +45,9 @@ export default function Contact() {
 												</div>
 												<div className="card-desc">
 													<p>
-														Arya College of Engineering &amp; I.T.
+														Bengaluru, Karnataka
 														<br />
-														A1-Hostel, Kukas, Jaipur - 302028
+														India
 													</p>
 												</div>
 											</div>
@@ -62,8 +62,8 @@ export default function Contact() {
 												</div>
 												<div className="card-desc">
 													<p>
-														<a href="mailto:correspond.rishav@gmail.com">
-															correspond.rishav@gmail.com
+														<a href="mailto:mujawarmsaif@gmail.com">
+															mujawarmsaif@gmail.com
 														</a>
 													</p>
 												</div>
@@ -79,7 +79,7 @@ export default function Contact() {
 												</div>
 												<div className="card-desc">
 													<p>
-														<a href="tel:+91-9771578320">+91-9771578320</a>
+														<a href="tel:+91-7411556025">+91-7411556025</a>
 													</p>
 												</div>
 											</div>
@@ -93,7 +93,7 @@ export default function Contact() {
 				<section className="sec-bg-2">
 					<div className="map-div">
 						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888.371751924363!2d75.89784934491777!3d27.029054544658866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396daff8e466c1db%3A0x692cdcc6d3ab020!2sArya+A1+Hostel!5e0!3m2!1sen!2sin!4v1558765331848!5m2!1sen!2sin"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.6600798865!2d77.35073573336324!3d12.954517008640542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1580882341049!5m2!1sen!2sin"
 							width="100%"
 							height="450"
 							frameBorder="0"

@@ -11,17 +11,7 @@ export default function Footer() {
 							<div className="social-icon-list row">
 								<div className="social-icons">
 									<a
-										href="https://facebook.com/rishavpandey43"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="icons"
-									>
-										<i className="fab fa-facebook-f fa-1.5x" />
-									</a>
-								</div>
-								<div className="social-icons">
-									<a
-										href="https://linkedin.com/in/rishavpandey43/"
+										href="https://www.linkedin.com/in/saif-mujawar-🇮🇳-0205b7138"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="icons"
@@ -31,7 +21,7 @@ export default function Footer() {
 								</div>
 								<div className="social-icons">
 									<a
-										href="https://twitter.com/rishavpandey43"
+										href="https://twitter.com/mujawarmsaif4"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="icons"
@@ -39,29 +29,10 @@ export default function Footer() {
 										<i className="fab fa-twitter fa-1.5x" />
 									</a>
 								</div>
+
 								<div className="social-icons">
 									<a
-										href="https://www.instagram.com/rishavpandey43/"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="icons"
-									>
-										<i className="fab fa-instagram fa-1.5x" />
-									</a>
-								</div>
-								<div className="social-icons">
-									<a
-										href="https://www.quora.com/profile/Rishav-Pandey-8"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="icons"
-									>
-										<i className="fab fa-quora fa-1.5x" />
-									</a>
-								</div>
-								<div className="social-icons">
-									<a
-										href="https://stackoverflow.com/users/7888165/rishav-pandey"
+										href="https://stackoverflow.com/users/12845346/saif-mujawar"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="icons"
@@ -71,7 +42,7 @@ export default function Footer() {
 								</div>
 								<div className="social-icons">
 									<a
-										href="https://github.com/rishavpandey43"
+										href="https://github.com/saaiif"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="icons"
@@ -86,7 +57,7 @@ export default function Footer() {
 						<div className="footer-col-2">
 							<div className="pt-4">
 								<p className="copyright">
-									© 2019 <em>Saif Mujawar</em>. All rights reserved.
+									&copy; 2020 <em>Saif Mujawar</em>. All rights reserved.
 								</p>
 							</div>
 						</div>

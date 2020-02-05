@@ -20,6 +20,7 @@ function cssVariables(state = [], action) {
 				stateCopy1.secBgColor = '#F5F5F5';
 				stateCopy1.mobNavBgColor = 'rgba(255, 255, 255, 0.8)';
 				stateCopy1.bgImgColor = 'rgba(245, 245, 245, 0.6)';
+
 				stateCopy1.mainFontColor = '#000';
 				stateCopy1.secFontColor = '#171717';
 			}

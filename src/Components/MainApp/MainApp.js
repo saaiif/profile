@@ -3,11 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './font-awesome/css/fontawesome.min.css';
 import './MainApp.css';
 
-import withTracker from '../../withTracker';
-
 import React from 'react';
 
-import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import Header from '../Header/Header';
 import HomePage from '../HomePage/HomePage';
@@ -56,10 +54,10 @@ export default function MainApp(props) {
 			<Router>
 				<Header {...props} />
 				<Switch>
-					<Route exact path="/" component={withTracker(HomePage, { ...props })} />
-					<Route exact path="/about" component={withTracker(About, { ...props })} />
-					<Route exact path="/portfolio" component={withTracker(Portfolio, { ...props })} />
-					<Route exact path="/contact" component={withTracker(Contact, { ...props })} />
+					<Route exact path="/" component={HomePage} />
+					<Route exact path="/about" component={About} />
+					<Route exact path="/portfolio" component={Portfolio} />
+					<Route exact path="/contact" component={Contact} />
 					<Route render={() => <Redirect to={{ pathname: '/' }} />} />
 				</Switch>
 				<Footer />

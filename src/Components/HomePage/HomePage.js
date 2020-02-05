@@ -66,7 +66,7 @@ class HomePage extends Component {
 					/>
 					<meta
 						name="keywords"
-						contents="Saif Mujawar, Software Developer, Saif Mujawar HomePage, Full Stack Developer"
+						contents="Saif Mujawar, React Developer, Saif Mujawar HomePage, Front End Developer"
 					/>
 					<meta name="robots" content="index, follow" />
 				</MetaTags>
@@ -76,19 +76,15 @@ class HomePage extends Component {
 							<div className="main-div">
 								<div className="main-div-head">
 									<h1>
-										{/*<Typed
-                      strings={["Hello, Hola, नमस्ते !"]}
-                      typeSpeed={70}
-                      backSpeed={70}
-                    />*/}
-										Hello, Hola, नमस्ते !
+										<Typed strings={[ 'Hello, नमस्ते !' ]} typeSpeed={70} backSpeed={70} />
+										{/* Hello, नमस्ते ! */}
 									</h1>
 								</div>
 								<div className="main-div-intro">
 									<p>
 										I'm <span className="custom">Saif Mujawar&nbsp;</span>
-										&mdash; a MEAN/MERN/LAMP Stack Developer, Computer Programmer, Data Science
-										Enthusiast, Open Source Contributer, who
+										&mdash; a React Front-End Developer, Computer Programmer, Open Source
+										Contributer, who
 										<span className="custom">&nbsp;Loves&nbsp;</span> to
 										<span className="custom">&nbsp;&lt;/&gt;</span>
 									</p>
@@ -130,10 +126,9 @@ class HomePage extends Component {
 								<div className="sec-detail">
 									<p>
 										Hello World, My name is Saif Mujawar. I'm a Computer Programmer with an interest
-										in Web Development, Competitive Programming, and Machine Learning. I've been
-										working as a Software Developer since the last 2 Years with hands-on Industrial
-										experience of more than a Year working as an Intern and Volunteer with several
-										Companies/Startups.
+										in Web Development, Competitive Programming. I've been working as a Research
+										Analyst(non-technical) field since the last one and half Years with hands-on
+										experience of more than a six months as Front-End developer.
 									</p>
 									<div className="discover-btn">
 										<button className="btn">
@@ -146,83 +141,45 @@ class HomePage extends Component {
 							</div>
 						</div>
 					</section>
-					{/* <section className="sec-bg-1 bg-img">
-                        <div className="custom-bg">
-                            <div className="container">
-                                <div className="main-div">
-                                    <div className="sec-head">
-                                        <h1>What I do</h1>
-                                    </div>
-                                    <div className="sec-detail">
-                                        <p>
-                                            I work as a MEAN/MERN/LAMP Stack Developer. I create
-                                            Single Page Web Applications, Websites using majorly
-                                            AngularJS, Angular, ReactJS as a Front-End stack,
-                                            powered by Back-End with NodeJS/PHP and MongoDB/MySql
-                                            for Database. My work also includes development in
-                                            Python with it's web framework(Flask) and it's general
-                                            purpose implementation like web scrapping.
-                    </p>
-                                    </div>
-                                    <div className="card-grid">
-                                        <div className="row">
-                                            <div className="col-12 col-md-4 col-sm-12">
-                                                <div className="cards">
-                                                    <div className="card-icon">
-                                                        <i className="fas fa-window-maximize fa-3x" />
-                                                    </div>
-                                                    <div className="card-title">
-                                                        <h3>Web Developer</h3>
-                                                    </div>
-                                                    <div className="card-desc">
-                                                        <p>
-                                                            I work as MEAN/MERN/LAMP Stack Developer,
-                                                            covering both Front-End and Back-End in Web
-                                                            Development.
-                            </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-12 col-md-4 col-sm-12">
-                                                <div className="cards">
-                                                    <div className="card-icon">
-                                                        <i className="fab fa-python fa-3x" />
-                                                    </div>
-                                                    <div className="card-title">
-                                                        <h3>Python Developer</h3>
-                                                    </div>
-                                                    <div className="card-desc">
-                                                        <p>
-                                                            I work with Python for General purpose
-                                                            implementation like web scrapping, working
-                                                            with Flask, etc.
-                            </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-12 col-md-4 col-sm-12">
-                                                <div className="cards">
-                                                    <div className="card-icon">
-                                                        <i className="fas fa-laptop-code fa-3x" />
-                                                    </div>
-                                                    <div className="card-title">
-                                                        <h3>Software Development</h3>
-                                                    </div>
-                                                    <div className="card-desc">
-                                                        <p>
-                                                            Implementation of Algorithms and Data
-                                                            Structure using C, C++, Python, JS in
-                                                            projects.
-                            </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> */}
+					<section className="sec-bg-1 bg-img">
+						<div className="custom-bg">
+							<div className="container">
+								<div className="main-div">
+									<div className="sec-head">
+										<h1>What I do</h1>
+									</div>
+									<div className="sec-detail">
+										<p>
+											I am fresher eager to work as a Front-End React Developer. I create Single
+											Page Web Applications, Websites using majorly
+											ReactJS,React-MDL,Redux,Javascript,CSS3,HTML5 as a Front-End stack, powered
+											by MySql for Database.
+										</p>
+									</div>
+									<div className="card-grid">
+										<div className="row justify-content-center">
+											<div className="col-12 col-md-4 col-sm-12 .mx-auto">
+												<div className="cards ">
+													<div className="card-icon">
+														<i className="fas fa-window-maximize fa-3x" />
+													</div>
+													<div className="card-title">
+														<h3>Web Developer</h3>
+													</div>
+													<div className="card-desc">
+														<p>
+															I work as React Developer, covering Front-End in Web
+															Development.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 			</div>
 		);

@@ -1,98 +1,104 @@
 .project-filter-div {
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .filter-div {
-  margin: 5px 6px;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 1.2em;
-  font-family: var(--head-font-family);
-  border-bottom: 3px solid transparent;
+	margin: 5px 6px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 1.2em;
+	font-family: var(--head-font-family);
+	border-bottom: 3px solid transparent;
 }
 .active {
-  border-bottom: 3px solid var(--main-theme-color);
+	border-bottom: 3px solid var(--main-theme-color);
 }
 
 .project-div figure {
-  position: relative;
+	position: relative;
 }
 
 .project-div figure img {
-  border-radius: 5px;
+	border-radius: 5px;
 }
 
 .project-div {
-  min-height: 324px;
+	min-height: 324px;
+}
+
+.project-div:hover {
+	-ms-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	transform: scale(1.01);
 }
 
 .figcaption {
-  display: flex;
-  display: none;
-  flex-direction: column;
-  justify-content: center;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(255, 0, 119, 0.9);
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
+	display: flex;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(247, 80, 80);
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
 }
 
 .figcaption .btn {
-  padding: 10px 15px;
-  border: 2px solid;
-  width: max-content;
-  margin: 0px auto;
+	padding: 10px 15px;
+	border: 2px solid;
+	width: max-content;
+	margin: 0px auto;
 }
 
 .modal-content {
-  border: none !important;
+	border: none !important;
 }
 
 .project-div figure:hover .figcaption {
-  display: block;
-  display: flex;
+	display: block;
+	display: flex;
 }
 
 .project-div figure:hover img {
-  filter: blur(1px);
+	filter: blur(1px);
 }
 
 .project-info .title h2 {
-  font-family: var(--head-font-family);
+	font-family: var(--head-font-family);
 }
 
 .project-info .desc p {
-  font-family: var(--sec-font-family);
-  font-size: var(--sm-font-size);
-  text-align: left;
+	font-family: var(--sec-font-family);
+	font-size: var(--sm-font-size);
+	text-align: left;
 }
 
 .tags {
-  font-family: var(--main-font-family);
-  padding: 3px 10px;
-  border: 1.5px solid var(--main-theme-color);
-  border-radius: 5px;
-  margin: 5px;
+	font-family: var(--main-font-family);
+	padding: 3px 10px;
+	border: 1.5px solid var(--main-theme-color);
+	border-radius: 5px;
+	margin: 5px;
 }
 
 .collaborators span {
-  font-family: var(--main-font-family);
-  padding: 2px 3px;
-  font-style: italic;
+	font-family: var(--main-font-family);
+	padding: 2px 3px;
+	font-style: italic;
 }
 
 .demo-button .btn {
-  border-radius: 30px;
-  background-color: var(--main-theme-color);
-  padding: 10px 25px;
+	border-radius: 30px;
+	background-color: var(--main-theme-color);
+	padding: 10px 25px;
 }
 
 .current-project-img {
-  padding: 10px 0px;
+	padding: 10px 0px;
 }
 
 /* Responsive view styling starts */
@@ -109,19 +115,19 @@
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .figcaption .btn {
-    padding: 5px 10px;
-  }
-  .demo-button .btn {
-    padding: 10px 15px;
-  }
+	.figcaption .btn {
+		padding: 5px 10px;
+	}
+	.demo-button .btn {
+		padding: 10px 15px;
+	}
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  .demo-button .btn {
-    padding: 10px 15px;
-  }
+	.demo-button .btn {
+		padding: 10px 15px;
+	}
 }
 
 /********** Large Mobile devices only **********/
