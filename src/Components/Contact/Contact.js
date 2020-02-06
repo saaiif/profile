@@ -10,8 +10,8 @@ export default function Contact() {
 				<meta property="title" content="Saif Mujawar | Web Developer | Programmer" />
 				<meta property="og:title" content="Saif Mujawar | Web Developer | Programmer" />
 				<meta name="author" content="Saif Mujawar" />
-				<link rel="canonical" href="https://rishavpandey.com/contact" />
-				<meta property="og:url" content="https://rishavpandey.com/contact" />
+				<link rel="canonical" href="https://saifamujawar.netlify.com/contact" />
+				<meta property="og:url" content="https://saifamujawar.netlify.com/contact" />
 				<meta property="og:type" content="website" />
 				<meta
 					name="description"

@@ -15,7 +15,7 @@ const projectList = [
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
-				website: 'https://rishavpandey.com/'
+				website: 'https://saifamujawar.netlify.com/'
 			}
 		],
 		githubRepo: 'https://github.com/saaiif/saifadminpanel',
@@ -47,7 +47,7 @@ const projectList = [
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
-				website: 'https://rishavpandey.com/'
+				website: 'https://saifamujawar.netlify.com/'
 			}
 		],
 		githubRepo: 'https://github.com/saaiif/saiftodo',
@@ -74,7 +74,7 @@ const projectList = [
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
-				website: 'https://rishavpandey.com/'
+				website: 'https://saifamujawar.netlify.com/'
 			}
 		],
 		githubRepo: 'https://github.com/saaiif/htmlfinalcode',
@@ -105,7 +105,7 @@ const projectList = [
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
-				website: 'https://rishavpandey.com/'
+				website: 'https://saifamujawar.netlify.com/'
 			}
 		],
 		githubRepo: 'https://github.com/saaiif/jscalc',
@@ -132,7 +132,7 @@ const projectList = [
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
-				website: 'https://rishavpandey.com/'
+				website: 'https://saifamujawar.netlify.com/'
 			}
 		],
 		githubRepo: 'https://github.com/saaiif/AnalogClock',
@@ -156,7 +156,7 @@ const projectList = [
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
-				website: 'https://rishavpandey.com/'
+				website: 'https://saifamujawar.netlify.com/'
 			}
 		],
 		githubRepo: 'https://github.com/saaiif/fitwatch',
@@ -277,8 +277,8 @@ class Portfolio extends Component {
 					<meta property="title" content="Saif Mujawar | Web Developer | Programmer" />
 					<meta property="og:title" content="Saif Mujawar | Web Developer | Programmer" />
 					<meta name="author" content="Saif Mujawar" />
-					<link rel="canonical" href="https://rishavpandey.com/portfolio" />
-					<meta property="og:url" content="https://rishavpandey.com/portfolio" />
+					<link rel="canonical" href="https://saifamujawar.netlify.com/portfolio" />
+					<meta property="og:url" content="https://saifamujawar.netlify.com/portfolio" />
 					<meta property="og:type" content="website" />
 					<meta
 						name="description"

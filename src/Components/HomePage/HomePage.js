@@ -53,8 +53,8 @@ class HomePage extends Component {
 					<meta property="title" content="Saif Mujawar | Web Developer | Programmer" />
 					<meta property="og:title" content="Saif Mujawar | Web Developer | Programmer" />
 					<meta name="author" content="Saif Mujawar" />
-					<link rel="canonical" href="https://rishavpandey.com/" />
-					<meta property="og:url" content="https://rishavpandey.com" />
+					<link rel="canonical" href="https://saifamujawar.netlify.com/" />
+					<meta property="og:url" content="https://saifamujawar.netlify.com/" />
 					<meta property="og:type" content="website" />
 					<meta
 						name="description"

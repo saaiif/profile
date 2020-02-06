@@ -206,8 +206,8 @@ export default function About(props) {
 				<meta property="title" content="Saif Mujawar | Web Developer | Programmer" />
 				<meta property="og:title" content="Saif Mujawar | Web Developer | Programmer" />
 				<meta name="author" content="Saif Mujawar" />
-				<link rel="canonical" href="https://rishavpandey.com/about" />
-				<meta property="og:url" content="https://rishavpandey.com/about" />
+				<link rel="canonical" href="https://saifamujawar.netlify.com/about" />
+				<meta property="og:url" content="https://saifamujawar.netlify.com/about" />
 				<meta property="og:type" content="website" />
 				<meta
 					name="description"
