@@ -146,7 +146,6 @@ body {
 
 .main-app {
 	position: relative;
-	
 }
 
 .back-to-top .icon {
@@ -171,7 +170,6 @@ body {
 .sec-bg-1 {
 	font-stretch: expanded;
 	background-color: var(--main-bg-color);
-	
 }
 
 .sec-bg-1 * {
@@ -188,7 +186,6 @@ body {
 
 .main-div {
 	padding: 60px 20px;
-	
 }
 
 .sec-head {
