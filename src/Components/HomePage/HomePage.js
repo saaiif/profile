@@ -76,7 +76,7 @@ class HomePage extends Component {
 							<div className="main-div">
 								<div className="main-div-head">
 									<h1>
-										<Typed strings={[ 'Hello, नमस्ते !' ]} typeSpeed={70} backSpeed={70} />
+										<Typed strings={[ 'Hello !' ]} typeSpeed={70} backSpeed={70} />
 										{/* Hello, नमस्ते ! */}
 									</h1>
 								</div>

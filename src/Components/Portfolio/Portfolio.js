@@ -3,7 +3,6 @@ import Project from './Project';
 import SelectedProject from './SelectedProject';
 import MetaTags from 'react-meta-tags';
 import './portfolio.css';
-
 const projectList = [
 	{
 		name: 'Admin Dashboard Website',
@@ -23,15 +22,15 @@ const projectList = [
 		images: [
 			{
 				value: require('../../assets/images/phonebook_img1.png'),
-				alt: 'apna broker web app image 1'
+				alt: 'Admin Dashboard Website 1'
 			},
 			{
 				value: require('../../assets/images/phonebook_img2.png'),
-				alt: 'apna broker web app image 2'
+				alt: 'Admin Dashboard Website 2'
 			},
 			{
 				value: require('../../assets/images/phonebook_img3.png'),
-				alt: 'apna broker web app image 3'
+				alt: 'Admin Dashboard Website 3'
 			}
 		],
 		type: 'react',
@@ -43,7 +42,7 @@ const projectList = [
 		thumbnail: require('../../assets/images/TodoListApp.thumbnail.png'),
 		desc:
 			"It's Todo list app created in ReactJS for managing todo list where user can add items in the list and can delete as per convenience etc",
-		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS' ],
+		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript', 'ReactJS' ],
 		collaborators: [
 			{
 				name: 'Saif Mujawar',
@@ -55,14 +54,45 @@ const projectList = [
 		images: [
 			{
 				value: require('../../assets/images/TodoListApp1.png'),
-				alt: 'apna broker web app image 1'
+				alt: 'TodoListApp 1'
 			},
 			{
 				value: require('../../assets/images/TodoListApp2.png'),
-				alt: 'apna broker web app image 3'
+				alt: 'TodoListApp 3'
 			}
 		],
 		type: 'react',
+		display: true
+	},
+	{
+		name: 'Online Meals.com',
+		shortDesc: 'Online Meals Responsive website using HTML5/CSS3 ',
+		thumbnail: require('../../assets/images/onlinemeals.thumbnail.png'),
+		desc: 'My Online Meals project contains Services, Clients and Contact Page with responsive design. ',
+		technologyUsed: [ 'HTML5', 'CSS3' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/SaifMealOnline',
+		url: 'https://saifmealsonline.netlify.com/',
+		images: [
+			{
+				value: require('../../assets/images/onlinemeals1.png'),
+				alt: 'onlinemeals 1'
+			},
+			{
+				value: require('../../assets/images/onlinemeals2.png'),
+				alt: 'onlinemeals 2'
+			},
+			{
+				value: require('../../assets/images/onlinemeals3.png'),
+				alt: 'onlinemeals 4'
+			}
+		],
+		type: 'html',
 		display: true
 	},
 	{
