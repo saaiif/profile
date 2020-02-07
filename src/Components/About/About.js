@@ -85,8 +85,8 @@ let mainWorkExperienceDetails = [
 		location: 'Bengaluru,Karnataka',
 		position: 'Research Analyst',
 		desc:
-			'I worked here as a Research Analyst for 9 months as a Lead Generator. My work includes find new contact details , Marketing research etc.'
-		// certificate: SurvaiderLetter
+			'I worked here as a Research Analyst for 9 months as a Lead Generator. My work includes find new contact details , Marketing research etc.',
+		certificate: null
 	},
 	{
 		companyName: 'VJIT Services',
@@ -97,8 +97,8 @@ let mainWorkExperienceDetails = [
 		location: 'Full Time, Belagavi',
 		position: 'Data Analyst',
 		desc:
-			' I worked here as a Data Analyst for 6 months in Belagavi, In office as a Full Time. My work included Listing data, adding information of the product in companys website Example: eBay etc.'
-		// certificate: VJITCertificate
+			' I worked here as a Data Analyst for 6 months in Belagavi, In office as a Full Time. My work included Listing data, adding information of the product in companys website Example: eBay etc.',
+		certificate: null
 	}
 ];
 
@@ -160,7 +160,7 @@ export default function About(props) {
 					</div>
 					<div className="desc">
 						<p>{item.desc}</p>
-						{/* <p>
+						<p>
 							<a
 								href={item.certificate ? item.certificate : '#'}
 								target="_black"
@@ -172,7 +172,7 @@ export default function About(props) {
 									{item.type === 'Full-Time' ? 'Releaving' : 'Experience'}
 								</em>
 							</a>
-						</p> */}
+						</p>
 					</div>
 				</div>
 			</div>
