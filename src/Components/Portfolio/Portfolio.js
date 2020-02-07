@@ -7,7 +7,7 @@ const projectList = [
 	{
 		name: 'Admin Dashboard Website',
 		shortDesc: 'Admin Dashboard Website created in ReactJS',
-		thumbnail: require('../../assets/images/phonebook_thumbnail.png'),
+		thumbnail: require('../../assets/images/saifadminpanel.thumbnail.png'),
 		desc:
 			"It's a Multi Page Website created in ReactJS using API call for managing Admin Dashboard,Products and Account data, where user can add products and can delete new products as per need etc",
 		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'Redux' ],
@@ -21,16 +21,139 @@ const projectList = [
 		url: 'https://saifadminpanel.netlify.com/',
 		images: [
 			{
-				value: require('../../assets/images/phonebook_img1.png'),
+				value: require('../../assets/images/saifadminpanel1.png'),
 				alt: 'Admin Dashboard Website 1'
 			},
 			{
-				value: require('../../assets/images/phonebook_img2.png'),
+				value: require('../../assets/images/saifadminpanel2.png'),
 				alt: 'Admin Dashboard Website 2'
 			},
 			{
-				value: require('../../assets/images/phonebook_img3.png'),
+				value: require('../../assets/images/saifadminpanel3.png'),
 				alt: 'Admin Dashboard Website 3'
+			}
+		],
+		type: 'react',
+		display: true
+	},
+	{
+		name: 'Calculator',
+		shortDesc: 'This is basic calculator',
+		thumbnail: require('../../assets/images/Calc.thumbnail.png'),
+		desc: 'This is simple calculator made with using javascript.',
+		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/jscalc',
+		url: 'https://saaiif-jscalc.glitch.me/CalculatorApp%20JS/calc.html',
+		images: [
+			{
+				value: require('../../assets/images/Calc1.png'),
+				alt: 'Basic Calculator 1'
+			},
+			{
+				value: require('../../assets/images/Calc2.png'),
+				alt: 'Basic Calculator 2'
+			}
+		],
+		type: 'js',
+		display: true
+	},
+	{
+		name: 'My Travel Diary',
+		shortDesc: 'My Travel Diary website using HTML5/CSS3 ',
+		thumbnail: require('../../assets/images/TravelDairy.thumbnail.png'),
+		desc: 'My Travel Diary project contains places where anyone can plan their vacations. ',
+		technologyUsed: [ 'HTML5', 'CSS3' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/htmlfinalcode',
+		url: 'https://saaiif-htmlfinalcode-1.glitch.me/hmlFinalproject.html',
+		images: [
+			{
+				value: require('../../assets/images/TravelDairy2.png'),
+				alt: 'TravelDairy 2'
+			},
+			{
+				value: require('../../assets/images/TravelDairy3.png'),
+				alt: 'TravelDairy 3'
+			},
+			{
+				value: require('../../assets/images/TravelDairy.png'),
+				alt: 'TravelDairy 4'
+			}
+		],
+		type: 'html',
+		display: true
+	},
+
+	{
+		name: 'Online Meals.com',
+		shortDesc: 'Online Meals Responsive website using HTML5/CSS3 ',
+		thumbnail: require('../../assets/images/onlinemeals.thumbnail.png'),
+		desc: 'My Online Meals project contains Services, Clients and Contact Page with responsive design. ',
+		technologyUsed: [ 'HTML5', 'CSS3' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/SaifMealOnline',
+		url: 'https://saifmealsonline.netlify.com/',
+		images: [
+			{
+				value: require('../../assets/images/onlinemeals1.png'),
+				alt: 'onlinemeals 1'
+			},
+			{
+				value: require('../../assets/images/onlinemeals2.png'),
+				alt: 'onlinemeals 2'
+			},
+			{
+				value: require('../../assets/images/onlinemeals3.png'),
+				alt: 'onlinemeals 4'
+			}
+		],
+		type: 'html',
+		display: true
+	},
+
+	{
+		name: 'FitBit Watch App',
+		shortDesc: 'FitBit Watch App with several features like Time and HeartBeat Rate',
+		thumbnail: require('../../assets/images/FitbitWatch.thumbnail.png'),
+		desc:
+			'FitBit Watch App with several features like Time and HeartBeat Rate, available in 5 different colors etc',
+		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript', 'ReactJS' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/fitwatch',
+		url: 'https://happy-cray-151e1f.netlify.com/',
+		images: [
+			{
+				value: require('../../assets/images/FitbitWatch.png'),
+				alt: 'FitbitWatch 1'
+			},
+			{
+				value: require('../../assets/images/FitbitWatch2.png'),
+				alt: 'FitbitWatch image 2'
+			},
+			{
+				value: require('../../assets/images/FitbitWatch3.png'),
+				alt: 'FitbitWatch image 3'
 			}
 		],
 		type: 'react',
@@ -65,95 +188,6 @@ const projectList = [
 		display: true
 	},
 	{
-		name: 'Online Meals.com',
-		shortDesc: 'Online Meals Responsive website using HTML5/CSS3 ',
-		thumbnail: require('../../assets/images/onlinemeals.thumbnail.png'),
-		desc: 'My Online Meals project contains Services, Clients and Contact Page with responsive design. ',
-		technologyUsed: [ 'HTML5', 'CSS3' ],
-		collaborators: [
-			{
-				name: 'Saif Mujawar',
-				website: 'https://saifamujawar.netlify.com/'
-			}
-		],
-		githubRepo: 'https://github.com/saaiif/SaifMealOnline',
-		url: 'https://saifmealsonline.netlify.com/',
-		images: [
-			{
-				value: require('../../assets/images/onlinemeals1.png'),
-				alt: 'onlinemeals 1'
-			},
-			{
-				value: require('../../assets/images/onlinemeals2.png'),
-				alt: 'onlinemeals 2'
-			},
-			{
-				value: require('../../assets/images/onlinemeals3.png'),
-				alt: 'onlinemeals 4'
-			}
-		],
-		type: 'html',
-		display: true
-	},
-	{
-		name: 'My Travel Diary',
-		shortDesc: 'My Travel Diary website using HTML5/CSS3 ',
-		thumbnail: require('../../assets/images/TravelDairy.thumbnail.png'),
-		desc: 'My Travel Diary project contains places where anyone can plan their vacations. ',
-		technologyUsed: [ 'HTML5', 'CSS3' ],
-		collaborators: [
-			{
-				name: 'Saif Mujawar',
-				website: 'https://saifamujawar.netlify.com/'
-			}
-		],
-		githubRepo: 'https://github.com/saaiif/htmlfinalcode',
-		url: 'https://saaiif-htmlfinalcode-1.glitch.me/hmlFinalproject.html',
-		images: [
-			{
-				value: require('../../assets/images/TravelDairy2.png'),
-				alt: 'TravelDairy 2'
-			},
-			{
-				value: require('../../assets/images/TravelDairy3.png'),
-				alt: 'TravelDairy 3'
-			},
-			{
-				value: require('../../assets/images/TravelDairy.png'),
-				alt: 'TravelDairy 4'
-			}
-		],
-		type: 'html',
-		display: true
-	},
-	{
-		name: 'Calculator',
-		shortDesc: 'This is basic calculator',
-		thumbnail: require('../../assets/images/Calc.thumbnail.png'),
-		desc: 'This is simple calculator made with using javascript.',
-		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript' ],
-		collaborators: [
-			{
-				name: 'Saif Mujawar',
-				website: 'https://saifamujawar.netlify.com/'
-			}
-		],
-		githubRepo: 'https://github.com/saaiif/jscalc',
-		url: 'https://saaiif-jscalc.glitch.me/CalculatorApp%20JS/calc.html',
-		images: [
-			{
-				value: require('../../assets/images/Calc1.png'),
-				alt: 'Basic Calculator 1'
-			},
-			{
-				value: require('../../assets/images/Calc2.png'),
-				alt: 'Basic Calculator 2'
-			}
-		],
-		type: 'js',
-		display: true
-	},
-	{
 		name: 'Analog Watch',
 		shortDesc: 'This is simple Analog Watch',
 		thumbnail: require('../../assets/images/AnalogWatch.thumbnail.png'),
@@ -174,38 +208,6 @@ const projectList = [
 			}
 		],
 		type: 'js',
-		display: true
-	},
-	{
-		name: 'FitBit Watch App',
-		shortDesc: 'FitBit Watch App with several features like Time and HeartBeat Rate',
-		thumbnail: require('../../assets/images/FitbitWatch.thumbnail.png'),
-		desc:
-			'FitBit Watch App with several features like Time and HeartBeat Rate, available in 5 different colors etc',
-		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript', 'ReactJS' ],
-		collaborators: [
-			{
-				name: 'Saif Mujawar',
-				website: 'https://saifamujawar.netlify.com/'
-			}
-		],
-		githubRepo: 'https://github.com/saaiif/fitwatch',
-		url: 'https://happy-cray-151e1f.netlify.com/',
-		images: [
-			{
-				value: require('../../assets/images/FitbitWatch.png'),
-				alt: 'FitbitWatch 1'
-			},
-			{
-				value: require('../../assets/images/FitbitWatch2.png'),
-				alt: 'FitbitWatch image 2'
-			},
-			{
-				value: require('../../assets/images/FitbitWatch3.png'),
-				alt: 'FitbitWatch image 3'
-			}
-		],
-		type: 'react',
 		display: true
 	}
 ];
@@ -344,7 +346,7 @@ class Portfolio extends Component {
 					<div className="container">
 						<div className="main-div">
 							<div className="sec-head">
-								<h1>Happy spending my time to this projects</h1>
+								<h1>Happy building my skill with this projects</h1>
 							</div>
 							<div className="sec-detail">
 								<div className="project-filter-div row">{projectFilter}</div>

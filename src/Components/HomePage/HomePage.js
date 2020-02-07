@@ -86,7 +86,7 @@ class HomePage extends Component {
 										&mdash; a React Front-End Developer, Computer Programmer, Open Source
 										Contributer, who
 										<span className="custom">&nbsp;Loves&nbsp;</span> to
-										<span className="custom">&nbsp;&lt;/&gt;</span>
+										<span className="custom">&nbsp;&lt;code/&gt;</span>
 									</p>
 								</div>
 								<div className="quote-div d-none">
@@ -121,7 +121,7 @@ class HomePage extends Component {
 						<div className="container">
 							<div className="main-div">
 								<div className="sec-head">
-									<h1>Who AM I?</h1>
+									<h1>Who Am I?</h1>
 								</div>
 								<div className="sec-detail">
 									<p>
@@ -133,7 +133,7 @@ class HomePage extends Component {
 									<div className="discover-btn">
 										<button className="btn">
 											<Link to="/about">
-												<span>Let's know more...</span>
+												<span>Know me better...</span>
 											</Link>
 										</button>
 									</div>
