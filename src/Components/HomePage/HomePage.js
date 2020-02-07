@@ -76,7 +76,7 @@ class HomePage extends Component {
 							<div className="main-div">
 								<div className="main-div-head">
 									<h1>
-										<Typed strings={[ 'Hello !' ]} typeSpeed={70} backSpeed={70} />
+										<Typed strings={[ 'Hello, Welcome !' ]} typeSpeed={70} backSpeed={70} />
 										{/* Hello, नमस्ते ! */}
 									</h1>
 								</div>
@@ -151,9 +151,8 @@ class HomePage extends Component {
 									<div className="sec-detail">
 										<p>
 											I am fresher eager to work as a Front-End React Developer. I create Single
-											Page Web Applications, Websites using majorly
-											ReactJS,React-MDL,Redux,Javascript,CSS3,HTML5 as a Front-End stack, powered
-											by MySql for Database.
+											Page Web Applications, Websites using majorly ReactJS,Redux,Javascript,
+											CSS3,HTML5 as a Front-End stack, powered by MySql for Database.
 										</p>
 									</div>
 									<div className="card-grid">
