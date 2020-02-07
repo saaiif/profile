@@ -121,7 +121,7 @@ class HomePage extends Component {
 						<div className="container">
 							<div className="main-div">
 								<div className="sec-head">
-									<h1>Who Am I?</h1>
+									<h1>Who Am I ?</h1>
 								</div>
 								<div className="sec-detail">
 									<p>
