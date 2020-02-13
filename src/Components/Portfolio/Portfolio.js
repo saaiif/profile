@@ -160,6 +160,34 @@ const projectList = [
 		display: true
 	},
 	{
+		name: 'Currency Converter App',
+		shortDesc: 'Currency Converter App Using an API in React',
+		thumbnail: require('../../assets/images/currencyconverter.thumbnail.png'),
+		desc:
+			'Currency Converter App using data binding in React, this app helps you to find current currency exchange rates',
+		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript', 'ReactJS' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/CurrencyConverter',
+		url: 'https://saifcurrencyconverter.netlify.com/',
+		images: [
+			{
+				value: require('../../assets/images/currencyconverter1.png'),
+				alt: 'currencyconverter 1'
+			},
+			{
+				value: require('../../assets/images/currencyconverter2.png'),
+				alt: 'currencyconverter 2'
+			}
+		],
+		type: 'react',
+		display: true
+	},
+	{
 		name: 'Todo List App',
 		shortDesc: 'Todo List App created in ReactJS',
 		thumbnail: require('../../assets/images/TodoListApp.thumbnail.png'),
