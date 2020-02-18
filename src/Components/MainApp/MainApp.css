@@ -364,6 +364,7 @@ body {
 		height: 30px;
 		padding: 0px;
 	}
+	
 
 	.back-to-top {
 		bottom: 15px;
@@ -382,6 +383,9 @@ body {
 	}
 	.card-title h3::after {
 		right: 44%;
+	}
+	.sec-bg-2{
+		/* font-size: 13px; */
 	}
 }
 
