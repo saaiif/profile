@@ -214,7 +214,6 @@ body {
   top: -20px;
   width: 300px;
 }
-
 .sec-head h1::after {
   content: "";
   background-color: var(--main-theme-color);
@@ -364,7 +363,6 @@ body {
 		height: 30px;
 		padding: 0px;
 	}
-	
 
 	.back-to-top {
 		bottom: 15px;
@@ -384,7 +382,7 @@ body {
 	.card-title h3::after {
 		right: 44%;
 	}
-	.sec-bg-2{
+	.sec-bg-2 {
 		/* font-size: 13px; */
 	}
 }

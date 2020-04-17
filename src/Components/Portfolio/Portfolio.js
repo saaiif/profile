@@ -5,6 +5,42 @@ import MetaTags from 'react-meta-tags';
 import './portfolio.css';
 const projectList = [
 	{
+		name: 'Ecommerce Website',
+		shortDesc: 'This is Full Fledge Ecommerce site',
+		thumbnail: require('../../assets/images/ec1.png'),
+		desc: 'This is responsive ecommerce website made with using javascript.',
+		technologyUsed: [ 'HTML5', 'CSS3', 'JavaScript' ],
+		collaborators: [
+			{
+				name: 'Saif Mujawar',
+				website: 'https://saifamujawar.netlify.com/'
+			}
+		],
+		githubRepo: 'https://github.com/saaiif/_newEcommerce',
+		url: 'https://saif-ecommerce-site.netlify.app',
+		images: [
+			{
+				value: require('../../assets/images/ec2.png'),
+				alt: 'Ecommerce page 1'
+			},
+			{
+				value: require('../../assets/images/ec3.png'),
+				alt: 'Ecommerce page 2'
+			},
+			{
+				value: require('../../assets/images/ec4.png'),
+				alt: 'Ecommerce page 3'
+			},
+			{
+				value: require('../../assets/images/ec5.png'),
+				alt: 'Ecommerce page 4'
+			}
+		],
+		type: 'js',
+		display: true
+	},
+
+	{
 		name: 'Admin Dashboard Website',
 		shortDesc: 'Admin Dashboard Website created in ReactJS',
 		thumbnail: require('../../assets/images/saifadminpanel.thumbnail.png'),

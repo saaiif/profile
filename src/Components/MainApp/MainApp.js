@@ -30,16 +30,12 @@ export default function MainApp(props) {
               /* background-color */
               --main-bg-color: ${props.cssVariables.mainBgColor};
               --sec-bg-color: ${props.cssVariables.secBgColor};
-
               /* bg-img-color */
               --bg-img-color: ${props.cssVariables.bgImgColor};
-
               /* mobile nav background color */
               --mob-nav-bg-color: ${props.cssVariables.mobNavBgColor};
-
               /* main-color theme */
               --main-theme-color: ${props.cssVariables.mainThemeColor};
-
               /* font-color */
               --main-font-color: ${props.cssVariables.mainFontColor};
               --sec-font-color: ${props.cssVariables.secFontColor};
