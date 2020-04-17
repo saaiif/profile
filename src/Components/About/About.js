@@ -308,9 +308,9 @@ export default function About(props) {
 										</div>
 										<div className="col-12 col-sm-6">
 											<div className="resume">
-												<a href={Resume} target="_black" rel="noopener noreferrer">
-													<button className="btn">My Resume</button>
-												</a>
+												{/* <a href={Resume} target="_black" rel="noopener noreferrer"> */}
+												<button className="btn">My Resume</button>
+												{/* </a> */}
 											</div>
 										</div>
 									</div>
