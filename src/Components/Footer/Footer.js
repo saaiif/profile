@@ -50,6 +50,11 @@ export default function Footer() {
 										<i className="fab fa-github fa-1.5x" />
 									</a>
 								</div>
+								<div className="social-icons">
+									<a href="https://dev.to/saaiif">
+										<i className="fab fa-dev" title="saaiif's DEV Profile" />
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>

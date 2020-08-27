@@ -3,11 +3,13 @@ import MetaTags from 'react-meta-tags';
 import './about.css';
 
 // document import statement
-import Resume from '../../assets/docs/Saif.Mujawar.pdf';
 // import VJITCertificate from '../../assets/docs/VJIT_Experience_Certificate.pdf';
 // import SurvaiderLetter from '../../assets/docs/Relieving letter_Saif.pdf';
 
 import { Link } from 'react-router-dom';
+
+
+
 
 let mainSkillList = [
 	{
@@ -44,6 +46,8 @@ let mainSkillList = [
 		name: 'Java'
 	}
 ];
+
+
 
 let mainAcademicDetails = [
 	{
@@ -103,6 +107,12 @@ let mainWorkExperienceDetails = [
 ];
 
 export default function About(props) {
+
+  const handleClick=(event)=>{
+    event.preventDefault()
+    alert('Resume Has Been Removed For Privacy, contact through E-mail!')
+  }
+
 	let academicDetails = [];
 	let workExperienceDetails = [];
 	let skillList = [];
@@ -309,7 +319,7 @@ export default function About(props) {
 										<div className="col-12 col-sm-6">
 											<div className="resume">
 												{/* <a href={Resume} target="_black" rel="noopener noreferrer"> */}
-												<button className="btn">My Resume</button>
+                        <button className="btn" onClick={handleClick}>My Resume</button>
 												{/* </a> */}
 											</div>
 										</div>
@@ -352,9 +362,18 @@ export default function About(props) {
 									<span>2+</span>
 								</div>
 								<div className="desc-div">
-									<span>Awards & Honour</span>
+                                    {/* <span>{Images}</span> */}
+
 								</div>
 							</div>
+              <div className="certMain">
+                            <div className="certify">
+                                <img src={require('../../assets/images/Certificates.png')} className="certImg" alt="certificates" ></img>
+                            </div>
+                            <div className="certify">
+                <img src={require('../../assets/images/Javascriptcertificate.png')} className="certImg" alt="certificates" ></img>
+                            </div>
+              </div>
 						</div>
 					</div>
 				</section>

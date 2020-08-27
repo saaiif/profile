@@ -99,6 +99,7 @@ export default function Contact() {
 							frameBorder="0"
 							style={{ border: 0 }}
 							allowFullScreen
+              title='Maps'
 						/>
 					</div>
 				</section>

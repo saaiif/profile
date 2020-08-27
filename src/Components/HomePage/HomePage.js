@@ -14,6 +14,7 @@ class HomePage extends Component {
 			quoteError: null
 		};
 	}
+
 	// componentDidMount() {
 	//   this.getQuote(this);
 	// }
